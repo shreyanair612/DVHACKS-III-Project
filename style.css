@@ -1,4 +1,16 @@
 body {
-  background: #ffd4c3;
-  margin-left: 
+  background-color:black;
+  color: white;
+}
+
+h1 {
+  font-size: 100px;
+  letter-spacing: 5px;
+  color:rgb(225,225,225);
+  text-shadow: 6px 6px rgba(100,0,0,0.7);
+  text-align: center;
+  line-height: 0.1;
+  font-family: "Courier New", monospace;
+  font-style: normal;
+  font-variant: normal;
 }
