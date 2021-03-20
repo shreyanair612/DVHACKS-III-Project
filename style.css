@@ -146,12 +146,14 @@ a:hover, a:active {
 /* FANTASY ESCAPE ROOM */
 
 .container4 {
-  height: 590px;
-  width: 1325px;
+  width:1325px;
+  height:600px;
   position: absolute;
-  style="padding:20px;
-  margin-top:20px;
+  background-size: 100%;
+  padding:0px;
+  margin-top:0px;
   background-image: url(images/fantasyLand.jpg);
+  background-repeat: no-repeat;
 }
 
 .trFilter {
@@ -219,19 +221,31 @@ a:hover, a:active {
   width:1325px;
   height:600px;
   position: absolute;
-  style="padding:20px;
+  background-size: 100%;
+  padding:0px;
   margin-top:0px;
   background-image: url(images/fantasyRuins.jpg);
   background-repeat: no-repeat;
 }
 
-
 .container6 {
+  position: absolute;
+  background-size: 100%;
   width:1325px;
   height:600px;
-  position: absolute;
-  style="padding:20px;
+  padding:0px;
   margin-top:0px;
   background-image: url(images/fantasyCastle.jpg);
+  background-repeat: no-repeat;
+}
+
+.container7 {
+  position: absolute;
+  background-size: 100%;
+  width:1325px;
+  height:600px;
+  padding:0px;
+  margin-top:0px;
+  background-image: url(images/fantasyClock.jpg);
   background-repeat: no-repeat;
 }
