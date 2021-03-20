@@ -61,6 +61,7 @@ ul {
   padding: 0 0 0 0;
   overflow: hidden;
   position:sticky;
+  z-index:20;
 }
 
 li {
@@ -200,6 +201,27 @@ a:hover, a:active {
   z-index: 21;
 }
 
+.fontFncy2 {
+  font-family:'Papyrus';
+  font-size:42px;
+  top:-0.75em;
+  left:30px;
+  position: absolute;
+  z-index: 50;
+}
+
+.fontFncy3 {
+  font-family:'Papyrus';
+  font-size:40px;
+  top:12em;
+  left:30px;
+  line-height: 1.5;
+  position: absolute;
+  z-index: 50;
+  color: #331a00;
+  background-color: #E1D8CA;
+}
+
 #next {
   float: right;
   height: 40px;
@@ -215,6 +237,23 @@ a:hover, a:active {
   text-align: center;
   text-decoration: none;
   font-family:"Papyrus", monospace;
+}
+
+#skip {
+  float: right;
+  height: 25px;
+  width: 80px;
+  margin-top: 465px;
+  padding-top: 5px;
+  padding-right: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: black;
+  background-color: rgb(255,255,255);
+  text-align: right;
+  text-decoration: none;
+  font-family:"Papyrus", monospace;
+  z-index:200;
 }
 
 .container5 {
@@ -248,4 +287,48 @@ a:hover, a:active {
   margin-top:0px;
   background-image: url(images/fantasyClock.jpg);
   background-repeat: no-repeat;
+}
+
+.container8 {
+  position: relative;
+  background-size: 100%;
+  width:1300px;
+  height:590px;
+  padding:0px;
+  margin-top:0px;
+  background-image: url(images/fantasyClues.png);
+  background-repeat: no-repeat;
+}
+
+input[type=number] {
+  width: 60px;
+  height: 70px;
+  padding: 30px 5px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  border: 3px solid #CCC;
+  background-color: #E1D8CA;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  font-size:30px;
+  font-family:"Papyrus", monospace;
+  text-align: center;
+}
+
+input[type=number]:focus {
+  outline:none;
+  border: 3px solid #331a00;
+}
+
+.bottomAlign {
+  text-position:bottom;
+  position: absolute;
+  bottom:-6px;
+  list-style-type: none;
+}
+
+#afterSubmit {
+  visibility: hidden;
+  
 }
