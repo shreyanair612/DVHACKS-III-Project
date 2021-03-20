@@ -8,23 +8,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <title> ENIGMA ESCAPES </title>
+    <title> Enigma Escapes </title>
   </head>
 
   <body>
     <!--Navigation Bar-->
     <header>
       <ul>
-        <li> <a id="navbar" href="navbar/home.html"> Home </a> </li>
-        <li> <a id="navbar" href="navbar/escape_rooms.html"> Escape Rooms </a> </li>
-        <li> <a id="navbar" href="navbar/about_enigma.html"> About Enigma </a> </li>
         <li> <a id="navbar" href="navbar/my_account.html"> My Account </a> </li>
+        <li> <a id="navbar" href="navbar/about_enigma.html"> About Enigma </a> </li>
+        <li> <a id="navbar" href="navbar/escape_rooms.html"> Escape Rooms </a> </li>
+        <li> <a id="active" href="index.html"> Home </a> </li>
       </ul>
     </header>
+
     <!--Title-->
-    <p></p>
     <h1>ENIGMA ESCAPES</h1>
-    <h2></h2>
+
+    <!--Homepage Escape Room Display-->
+    <br> <br>
+    <center>
+      <h2 class="underline"> Our Most Popular Escape Rooms </h2>
+    </center>
+    <center>
+      <td>
+          <iframe src="images/fantasy_enigma.jpg" style="float:left; margin-left: 100px; position:bottom;" height="420" width="350" title="Fantasy Escape" scrolling="no"> Fantasy Escape </iframe>
+      </td>
+
+      <td>
+          <iframe src="images/scifi_enigma.jpg" style="float:left; margin-left: 10px; position:bottom;" height="420" width="350" title="Sci-Fi Escape" scrolling="no"> Sci-Fi Escape </iframe>
+      </td>
+
+      <td>
+          <iframe src="images/murder_enigma.jpg" style="float:left; margin-left: 10px; position:bottom;" height="420" width="350" title="Murder Mystery Escape" scrolling="no"> Murder Mystery Escape </iframe>
+      </td>
+    </center>
   </body>
 
 </html>

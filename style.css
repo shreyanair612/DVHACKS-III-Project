@@ -1,16 +1,38 @@
+/*MAIN FORMAT*/
+
 body {
   background-color:black;
   color: white;
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 150px;
   letter-spacing: 5px; line-height: 0.1;
   color:rgb(225,225,225);
   text-shadow: 6px 6px rgba(100,0,0,0.7);
   text-align: center;
-  font-family: "Impact", monospace;
+  font-family: "Source Sans Pro", monospace;
+  word-spacing: 0px;
 }
+
+h2 {
+  font-size: 40px;
+  line-height: 2;
+  color:rgb(225,225,225);
+  text-align: center;
+  font-family: "Courier New", monospace;
+  font-weight: lighter;
+}
+
+.underline {
+  background-size: 1px 1em;
+  box-shadow:
+    inset 0 -0.175em black,
+    inset 0 -0.2em white;
+  display: inline;
+}
+
+/**NAVIGATION BAR*/
 
 ul {
   list-style-type: none;
@@ -26,7 +48,7 @@ li {
 li a {
   display: block;
   color: white;
-  background-color: #333;
+  background-color: rgba(100,0,0,0.7);
   text-align: center;
   padding: 10px 10px;
   margin: 10px;
@@ -34,18 +56,18 @@ li a {
   font-family:"Courier New", monospace;
 }
 
-/*a:link {
+#active {
+  background-color: rgb(30, 0, 0);
+  color: #ffffff;
+  font-weight: 20px;
+}
+
+a:link {
   margin:5px 5px 5px 5px;
   text-decoration:none;
-  border:rgb(233, 233, 233) 1px solid;
-  position: fixed;
-  right:10px; top: 10px;
-
 }
 
 a:hover, a:active {
   background-color: rgb(0, 0, 0);
   color: #ffffff;
-  border:rgb(233, 233, 233) 1px solid;
 }
-*/
