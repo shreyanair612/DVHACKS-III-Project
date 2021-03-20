@@ -130,3 +130,11 @@ a:hover, a:active {
   background-color: rgba(225,225,225,0.5);
   width:340px;
 }
+
+/* FANTASY ESCAPE ROOM */
+
+body.bodyF {
+  background-color: white;
+  border-color: white;
+  margin:50px;
+}
