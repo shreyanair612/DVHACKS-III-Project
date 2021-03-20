@@ -151,8 +151,7 @@ a:hover, a:active {
   position: absolute;
   style="padding:20px;
   margin-top:20px;
-  background-image: url(../../images/fantasyLand.jpg);
-  position:bottom;
+  background-image: url(images/fantasyLand.jpg);
 }
 
 .trFilter {
@@ -188,6 +187,17 @@ a:hover, a:active {
   z-index: 21;
 }
 
+.fontFncy1 {
+  font-family:'Papyrus';
+  font-size:37px;
+  line-height:2;
+  top:1.5em;
+  left:20px;
+  padding-left:90px; padding-right: 90px;
+  position: absolute;
+  z-index: 21;
+}
+
 #next {
   float: right;
   height: 40px;
@@ -203,4 +213,25 @@ a:hover, a:active {
   text-align: center;
   text-decoration: none;
   font-family:"Papyrus", monospace;
+}
+
+.container5 {
+  width:1325px;
+  height:600px;
+  position: absolute;
+  style="padding:20px;
+  margin-top:0px;
+  background-image: url(images/fantasyRuins.jpg);
+  background-repeat: no-repeat;
+}
+
+
+.container6 {
+  width:1325px;
+  height:600px;
+  position: absolute;
+  style="padding:20px;
+  margin-top:0px;
+  background-image: url(images/fantasyCastle.jpg);
+  background-repeat: no-repeat;
 }
