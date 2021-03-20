@@ -1,3 +1,14 @@
+/*FADE TRANSITIONS*/
+body {
+   opacity: 1;
+   transition-duration: 0.7s;
+   transition-property: opacity;
+ }
+
+ body.fade {
+   opacity: 0;
+ }
+
 /*MAIN FORMAT*/
 
 body {
@@ -169,8 +180,8 @@ a:hover, a:active {
 .fontFncy {
   font-family:'Papyrus';
   font-size:35px;
-  line-height:2;
-  top:1.75em;
+  line-height:1.75;
+  top:2em;
   left:20px;
   padding:60px;
   position: absolute;
@@ -180,13 +191,15 @@ a:hover, a:active {
 #next {
   float: right;
   height: 40px;
-  width: 100px;
-  bottom: 50px;
+  width: 200px;
+  margin-top: 490px;
+  transform:translate(-250%,-50%);
   padding-top: 10px;
   font-size: 20px;
   display: block;
-  color: white;
-  background-color: rgba(255,165,0,0.5);
+  font-weight: bolder;
+  color: black;
+  background-color: rgb(255,165,0);
   text-align: center;
   text-decoration: none;
   font-family:"Papyrus", monospace;
