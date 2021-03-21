@@ -1,6 +1,7 @@
 //Note: Used help of internet due to weak knowledge of proper JS.
 
 document.addEventListener('DOMContentLoaded', () => {
+  'use strict';
   window.setTimeout(function () {
     document.body.className = '';
   }, 230);
@@ -8,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //Form Submission (Code)
 function finalCodeSubmission() {
+  'use strict';
   var one = document.getElementById('Q1F').value;
   var two = document.getElementById('Q2F').value;
   var three = document.getElementById('Q3F').value;
@@ -28,6 +30,4 @@ function finalCodeSubmission() {
   } else {
     window.open('retry.html');
   }
-
-  //else if (concStr != correctCode && retries == 1)
 }
