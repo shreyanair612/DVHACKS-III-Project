@@ -99,37 +99,10 @@ a:hover, a:active {
 /*TRANSPARENT LINKS ON HOME PAGE*/
 
 .container {
-  position: relative;
-  color: white;
-  align:center;
-}
-
-.container2 {
-  position: relative;
-  color: white;
-}
-
-.container3 {
-  position: relative;
-  color: white;
-}
-
-.centered {
+  width: 60px;
+  length: 80px;
   position: absolute;
-  bottom: -100px;
-  left:120px;
-}
-
-.centered2 {
-  position: absolute;
-  bottom: -100px;
-  left: 480px;
-}
-
-.centered3 {
-  position: absolute;
-  bottom: -100px;
-  right: 120px;
+  margin-top: 300px;
 }
 
 .rounded {
@@ -141,7 +114,7 @@ a:hover, a:active {
   font-weight: 550;
   cursor:pointer;
   background-color: rgba(225,225,225,0.5);
-  width:340px;
+  width:1050px;
 }
 
 /* FANTASY ESCAPE ROOM */
@@ -318,6 +291,17 @@ a:hover, a:active {
   padding:2px;
   margin-top:-15px;
   background-image: url(images/fantasyLights.jpg);
+  background-repeat: no-repeat;
+}
+
+.container10 {
+  position: relative;
+  background-size: 100%;
+  width:1320px;
+  height:595px;
+  padding:2px;
+  margin-top:-15px;
+  background-image: url(images/fantasyLock.jpg);
   background-repeat: no-repeat;
 }
 

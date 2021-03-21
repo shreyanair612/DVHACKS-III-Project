@@ -24,9 +24,10 @@ function finalCodeSubmission() {
   document.getElementById('results').innerHTML = concStr;
 
   if (concStr == correctCode) {
-    var path = 'escape.html';
-    window.open(path);
+    window.open('escape.html');
   } else {
-    alert('Lock combination does not match.');
+    window.open('retry.html');
   }
+
+  //else if (concStr != correctCode && retries == 1)
 }
