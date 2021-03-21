@@ -8,26 +8,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //Form Submission (Code)
 function finalCodeSubmission() {
-  let one = document.getElementById('Q1F').value;
-  let two = document.getElementById('Q2F').value;
-  let three = document.getElementById('Q3F').value;
-  let four = document.getElementById('Q4F').value;
-  let five = document.getElementById('Q5F').value;
-  let six = document.getElementById('Q6F').value;
-  let seven = document.getElementById('Q7F').value;
-  let eight = document.getElementById('Q8F').value;
-  let nine = document.getElementById('Q9F').value;
-  //const codeString1 = `${one} + ${two} + ${three} + ${four}`;
-  //const codeString2 = `${five} + ${six} + ${seven} + ${eight} + ${nine}`;
-  //const codeString = (codeString1 + codeString2);
+  var one = document.getElementById('Q1F').value;
+  var two = document.getElementById('Q2F').value;
+  var three = document.getElementById('Q3F').value;
+  var four = document.getElementById('Q4F').value;
+  var five = document.getElementById('Q5F').value;
+  var six = document.getElementById('Q6F').value;
+  var seven = document.getElementById('Q7F').value;
+  var eight = document.getElementById('Q8F').value;
+  var nine = document.getElementById('Q9F').value;
 
-  //var result = document.getElementById('results');
+  var concStr = nine.concat(eight, seven, six, five, four, three, two, one);
+  var correctCode = '250910115';
 
-  //if (codeString == 250910115) {
-  //window.alert('boom.');
-  //} else {
-  //window.alert('not boom.');
-  //}
+  document.getElementById('results').innerHTML = concStr;
+
+  if (concStr == correctCode) {
+    var path = 'riddle.html';
+    window.open(path);
+  } else {
+    alert('Lock combination does not match.');
+  }
 }
-
-console.log(nine);

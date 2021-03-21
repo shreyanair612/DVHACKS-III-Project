@@ -35,25 +35,28 @@
       <div class="container8" id="quiz">
         <p class="fontFncy3"> &nbsp; Enter the correct 9-digit code. &nbsp; </p>
         <ul class="bottomAlign">
-          <li> <input type="number" id="numCode" name="Q1F" min="0" max="9"> </li>
-          <li> <input type="number" id="numCode" name="Q2F" min="0" max="9"> </li>
-          <li> <input type="number" id="numCode" name="Q3F" min="0" max="9"> </li>
-          <li> <input type="number" id="numCode" name="Q4F" min="0" max="9"> </li>
-          <li> <input type="number" id="numCode" name="Q5F" min="0" max="9"> </li>
-          <li> <input type="number" id="numCode" name="Q6F" min="0" max="9"> </li>
-          <li> <input type="number" id="numCode" name="Q7F" min="0" max="9"> </li>
-          <li> <input type="number" id="numCode" name="Q8F" min="0" max="9"> </li>
-          <li> <input type="number" id="numCode" name="Q9F" min="0" max="9"> </li>
+          <li> <input type="number" id="Q1F" min="0" max="9"> </li>
+          <li> <input type="number" id="Q2F" min="0" max="9"> </li>
+          <li> <input type="number" id="Q3F" min="0" max="9"> </li>
+          <li> <input type="number" id="Q4F" min="0" max="9"> </li>
+          <li> <input type="number" id="Q5F" min="0" max="9"> </li>
+          <li> <input type="number" id="Q6F" min="0" max="9"> </li>
+          <li> <input type="number" id="Q7F" min="0" max="9"> </li>
+          <li> <input type="number" id="Q8F" min="0" max="9"> </li>
+          <li> <input type="number" id="Q9F" min="0" max="9"> </li>
         </ul>
       </div>
 
       <!--SUBMIT-->
-      <button id="submit" onclick="return finalCodeSubmission()">
-        Put the combination into the number lock.
-      </button>
-
+      <div>
+        <p id="results"> </p>
+        <button id="submit" onclick="finalCodeSubmission()">
+          Put the combination into the number lock.
+        </button>
+      </div>
       <!--RESULTS-->
-      <div id="results"> </div>
+      <div>
+      </div>
     </form>
   </body>
 
