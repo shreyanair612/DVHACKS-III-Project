@@ -31,23 +31,30 @@
     <p class="fontFncy2"> Only Time Will Tell. </p>
 
     <!--FORM-->
-    <div class="container8">
-      <p class="fontFncy3"> &nbsp; Enter the correct 9-digit code. &nbsp; </p>
-      <ul class="bottomAlign">
-        <li> <input type="number" id="numCode" name="Q1F" min="1" max="9"> </li>
-        <li> <input type="number" id="numCode" name="Q2F" min="1" max="9"> </li>
-        <li> <input type="number" id="numCode" name="Q3F" min="1" max="9"> </li>
-        <li> <input type="number" id="numCode" name="Q4F" min="1" max="9"> </li>
-        <li> <input type="number" id="numCode" name="Q5F" min="1" max="9"> </li>
-        <li> <input type="number" id="numCode" name="Q6F" min="1" max="9"> </li>
-        <li> <input type="number" id="numCode" name="Q7F" min="1" max="9"> </li>
-        <li> <input type="number" id="numCode" name="Q8F" min="1" max="9"> </li>
-        <li> <input type="number" id="numCode" name="Q9F" min="1" max="9"> </li>
-      </ul>
+    <form>
+      <div class="container8" id="quiz">
+        <p class="fontFncy3"> &nbsp; Enter the correct 9-digit code. &nbsp; </p>
+        <ul class="bottomAlign">
+          <li> <input type="number" id="numCode" name="Q1F" min="0" max="9"> </li>
+          <li> <input type="number" id="numCode" name="Q2F" min="0" max="9"> </li>
+          <li> <input type="number" id="numCode" name="Q3F" min="0" max="9"> </li>
+          <li> <input type="number" id="numCode" name="Q4F" min="0" max="9"> </li>
+          <li> <input type="number" id="numCode" name="Q5F" min="0" max="9"> </li>
+          <li> <input type="number" id="numCode" name="Q6F" min="0" max="9"> </li>
+          <li> <input type="number" id="numCode" name="Q7F" min="0" max="9"> </li>
+          <li> <input type="number" id="numCode" name="Q8F" min="0" max="9"> </li>
+          <li> <input type="number" id="numCode" name="Q9F" min="0" max="9"> </li>
+        </ul>
+      </div>
 
-      <button id="submit"> Put the combination into the number lock </button>
-    </div>
+      <!--SUBMIT-->
+      <button id="submit" onclick="return finalCodeSubmission()">
+        Put the combination into the number lock.
+      </button>
 
+      <!--RESULTS-->
+      <div id="results"> </div>
+    </form>
   </body>
 
 </html>
