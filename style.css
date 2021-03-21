@@ -222,6 +222,16 @@ a:hover, a:active {
   background-color: #E1D8CA;
 }
 
+.fontFncy4 {
+  font-family:'Papyrus';
+  font-size:50px;
+  top:-0.75em;
+  left:30px;
+  position: absolute;
+  z-index: 50;
+  padding: 60px;
+}
+
 #next {
   float: right;
   height: 40px;
@@ -300,6 +310,17 @@ a:hover, a:active {
   background-repeat: no-repeat;
 }
 
+.container9 {
+  position: relative;
+  background-size: 100%;
+  width:1320px;
+  height:595px;
+  padding:2px;
+  margin-top:-15px;
+  background-image: url(images/fantasyLights.jpg);
+  background-repeat: no-repeat;
+}
+
 input[type=number] {
   width: 60px;
   height: 70px;
@@ -330,5 +351,17 @@ input[type=number]:focus {
 
 #afterSubmit {
   visibility: hidden;
-  
+}
+
+#submit {
+  font-family:'Papyrus';
+  font-size:20px;
+  top:5em;
+  left:920px;
+  line-height: 1.5;
+  position: absolute;
+  z-index: 50;
+  color: #331a00;
+  background-color: #E1D8CA;
+  font-weight:bold;
 }

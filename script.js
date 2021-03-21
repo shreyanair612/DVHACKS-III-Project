@@ -24,7 +24,7 @@ function finalCodeSubmission() {
   document.getElementById('results').innerHTML = concStr;
 
   if (concStr == correctCode) {
-    var path = 'riddle.html';
+    var path = 'escape.html';
     window.open(path);
   } else {
     alert('Lock combination does not match.');
